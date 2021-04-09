@@ -1,8 +1,8 @@
 # Project Overview
 
-**PROJECT NAME:** dfadfadfsdfadf
+**PROJECT NAME:** Portfolio
 
-**PROJECT AUTHOR:** lkjlkjljlkadfsd
+**PROJECT AUTHOR:** Nikolaus Brodfuehrer
 
 ## Project Schedule
 
@@ -22,11 +22,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+ The first project dealing with devloping a website. The project will demonstrate website that can properly link up to future projects using a google API, CSS GRID, And a proper HTML/CSS structure that is mobile forst and available on the web!
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/1nMCs6OEMY5mugd_pzWU_3cMqM_8HQha7TrDFnZw6mBY/edit#gid=0) 
 
 ## Portfolio I want to Emulate
 
@@ -35,8 +35,8 @@ Search and compare at least 3 profile web sites.  Record your findings in the ta
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
 | [denisechandler.com](http://www.denisechandler.com/)| landing page animation
-|[jkeohan.com](http://jkeohan.com/) | mouseover on a project triggers animations |
-| [mattfarley.ca](http://mattfarley.ca/) |  layout of the projects
+| https://samcasey.info/index.html#contactContainer| Project structure
+| http://andrewhollingworth.com/) |  Footer style
 
 ---
 
@@ -89,29 +89,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| HTML Structure | H | 45mins | hr |
+| CSS Grid| M | 1.5hr | hr |  
+| Flexbox / Bootstrap content and styling | M | 1.5hr|  hr | 
+| Working with API | H | 2.5hrs~|  hr | 
+| Responsive | M | 2.5hr | hr | hr |
+| Total | H | 8.45hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Additional proper styling w css| L | 2hr | -hr | hr |
+| Interactive Nav | L | 1hr | hr |
+| Carosel | L | 4hr | -hr | hr |
+| Total | H | 7hrs| hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+Bootstrap 5 : CSS styling and positioning.
+JQuery 3.6: API Integration
 
 ## Code Snippet
 
