@@ -63,12 +63,12 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP 
 
--Use semantic markup for HTML and CSS, adhering to best practices.
--Use CSS GRID to create a multi-column layout
--Use Flexbox for content
--Must be mobile mobile first, then tablet and desktop responsive
--Must pull in projects via API call from google sheet
--Be deployed and accessible online either via Github Pages or Surge.
+- Use semantic markup for HTML and CSS, adhering to best practices.
+- Use CSS GRID to create a multi-column layout
+- Use Flexbox for content
+- Must be mobile mobile first, then tablet and desktop responsive
+- Must pull in projects via API call from google sheet
+- Be deployed and accessible online either via Github Pages or Surge.
 
 #### PostMVP 
 
