@@ -26,7 +26,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/1nMCs6OEMY5mugd_pzWU_3cMqM_8HQha7TrDFnZw6mBY/edit#gid=0) 
+Include link to your google sheet here.  Here is the sample (https://docs.google.com/spreadsheets/d/1nMCs6OEMY5mugd_pzWU_3cMqM_8HQha7TrDFnZw6mBY/edit#gid=0) 
 
 ## Portfolio I want to Emulate
 
@@ -37,6 +37,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 | [denisechandler.com](http://www.denisechandler.com/)| landing page animation
 | https://samcasey.info/index.html#contactContainer| Project structure
 | http://andrewhollingworth.com/) |  Footer style
+| http://eloise-ress-barrow.surge.sh/#writing | Also project structure
 
 ---
 
@@ -44,47 +45,39 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- https://imgur.com/BhQkWyD - Mobile
+- https://i.imgur.com/GDQiSdt.jpg - Tablet and Desktop (Two seperate layouts on the same picture)
 
-Wireframing Resources:
 
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
 
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
+[Link](https://imgur.com/q1Cyn2W)
 
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
 
 ### MVP/PostMVP - 5min
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP (examples)
+#### MVP 
 
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+Use semantic markup for HTML and CSS, adhering to best practices.
+Use CSS GRID to create a multi-column layout
+Use Flexbox for content
+Must be mobile mobile first, then tablet and desktop responsive
+Must pull in projects via API call from google sheet
+Be deployed and accessible online either via Github Pages or Surge.
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Develop a functioning Carousel near the header
+-
 
 ## Functional Components
 
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -107,6 +100,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Additional Libraries
 Bootstrap 5 : CSS styling and positioning.
 JQuery 3.6: API Integration
+TBD: Shoelace
 
 ## Code Snippet
 
