@@ -63,17 +63,17 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP 
 
-Use semantic markup for HTML and CSS, adhering to best practices.
-Use CSS GRID to create a multi-column layout
-Use Flexbox for content
-Must be mobile mobile first, then tablet and desktop responsive
-Must pull in projects via API call from google sheet
-Be deployed and accessible online either via Github Pages or Surge.
+-Use semantic markup for HTML and CSS, adhering to best practices.
+-Use CSS GRID to create a multi-column layout
+-Use Flexbox for content
+-Must be mobile mobile first, then tablet and desktop responsive
+-Must pull in projects via API call from google sheet
+-Be deployed and accessible online either via Github Pages or Surge.
 
 #### PostMVP 
 
 - Develop a functioning Carousel near the header
--
+- Work to get a functional hamburger style menu.
 
 ## Functional Components
 
@@ -82,19 +82,27 @@ Be deployed and accessible online either via Github Pages or Surge.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| HTML Structure | H | 45mins | hr |
-| CSS Grid| M | 1.5hr | hr |  
+| HTML Structure | H | 1.5hr | hr |
+| HTML WebComponent Research | L | 1hr | hr |
+| CSS Grid| M | 2hr | hr |
+| CSS Padding and margin| M | 2hr | hr |  
+| CSS Resource Gather | L | 1hr | hr
 | Flexbox / Bootstrap content and styling | M | 1.5hr|  hr | 
-| Working with API | H | 2.5hrs~|  hr | 
-| Responsive | M | 2.5hr | hr | hr |
-| Total | H | 8.45hrs| hrs |
+| Jquery Research | M | 1hr | hr |
+| Working with API | H | 2.5hrs|  hr | 
+| Jquery rendering data to page | H | 2hr | hr |
+| Responsive layout basic design | M | 2.5hr | hr | hr |
+| Response Jquery elements | M | 2.5hr | hr | hr |
+| MVP bug testing. | H | 2.5hr | hr |
+| Total | H | 22  hours| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Additional proper styling w css| L | 2hr | -hr | hr |
 | Interactive Nav | L | 1hr | hr |
-| Carosel | L | 4hr | -hr | hr |
+| Javascript Research for Interactive elements | L | 2hr | 
+| Carosel | L | 2hr | -hr | hr |
 | Total | H | 7hrs| hrs |
 
 ## Additional Libraries
