@@ -12,10 +12,23 @@ class TemplateExample extends HTMLElement {
     }
 }
 
+class PortfolioCard extends HTMLElement {
+    constructor() {
+        super()
+        
+      const giturl  = this.getAttribute("giturl")
+      const liveurl = this.getAttribute("liveurl")
+      const imgurl = this.getAttribute("imgurl")
+
+      console.log(giturl, liveurl, imgurl,)
+    }
+}
+
 
 
 /////////////////////////////////
 // Register the HTML Tag here
 /////////////////////////////////
+customElements.define("portfolio-card", PortfolioCard)
 
 customElements.define("template-example", TemplateExample)
