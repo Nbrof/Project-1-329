@@ -126,3 +126,6 @@ function reverse(string) {
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
+
+**ERROR** json information did not properly rear on page
+**RESOLUTION** Webcomponents.js information needed to map app.js information

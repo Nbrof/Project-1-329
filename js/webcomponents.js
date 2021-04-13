@@ -17,22 +17,24 @@ class PortfolioCard extends HTMLElement {
         super()
       
       
-        const name = this.getAttribute("projectName")
-      const giturl  = this.getAttribute("giturl")
-      const liveurl = this.getAttribute("liveurl")
-      const imgurl = this.getAttribute("imgurl")
+        const name = this.getAttribute("name")
+      const giturl  = this.getAttribute("git")
+      const liveurl = this.getAttribute("live")
+      const imgurl = this.getAttribute("img")
      
      
-      console.log(this.attributes)
+    //   console.log(this.attributes)
       console.log(giturl, liveurl, imgurl, name)
 
         this.innerHTML =`
+        <section>
         <sl-card>
         <h3>${name}</h3>
-        <img src=${imgurl} alt=${name} slot="image">
+        <img src='${imgurl}' alt=${name} slot="image"/>
         <a href=${giturl}> <sl-button size="medium" pill>Git</sl-button></a>
         <a href=${liveurl}> <sl-button size="medium" pill>Live</sl-button></a>
-        <sl-card>`;
+        <sl-card>
+        </section>`;
     }
 }
 

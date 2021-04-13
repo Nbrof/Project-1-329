@@ -15,21 +15,40 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nMCs6OEMY5mugd_pzWU_3cMqM_8H
     // Map over the data, generate a simpler dataset
     const projects = data.feed.entry.map((item) => { //Remember, Map lets you convert array into another array
         return {    
-            description: item.gsx$description.$t,
+            // description: item.gsx$description.$t,
             giturl: item.gsx$giturl.$t,
             liveurl: item.gsx$liveurl.$t,
-            project: item.gsx$project.$t,
+            pname: item.gsx$project.$t,
             projectimage: item.gsx$projectimage.$t
 
+            
         }
+
+        
+
     })
-    // console.log(projects)
+
+    console.log(projects)
+
+
+    const jqProject = projects.map((project) => {
+        return `
+        <portfolio-card name="${project.pname}" git=${project.giturl} live=${project.liveurl} img=${project.projectimage}></portfolio-card>
+        `
+    })
+
+    console.log(jqProject)
+    // 
+    
 
     ///////////////////////////
     ///// Jquery to render your projects below
     //////////////////////////
     //////////////////////////
 
+
+    const $section = $(`section`)
+    $section.html(jqProject.join(" "))
     ///////////////////////////
     ///////////////////////////
     
