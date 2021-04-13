@@ -82,16 +82,16 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| HTML Structure | H | 1.5hr | hr |
+| HTML Structure | H | 1.5hr | 2hr |
 | HTML WebComponent Research | L | 1hr | hr |
-| CSS Grid| M | 2hr | hr |
-| CSS Padding and margin| M | 2hr | hr |  
-| CSS Resource Gather | L | 1hr | hr
+| CSS Grid| M | 2hr | 1.5 |
+| CSS Padding and margin| M | 2hr | 1hr |  
+| CSS Resource Gather | L | 1hr | 1.5hr
 | Flexbox / Bootstrap content and styling | M | 1.5hr|  hr | 
 | Jquery Research | M | 1hr | hr |
 | Working with API | H | 2.5hrs|  hr | 
 | Jquery rendering data to page | H | 2hr | hr |
-| Responsive layout basic design | M | 2.5hr | hr | hr |
+| Responsive layout basic design | M | 2.5hr | 2.5hr|
 | Response Jquery elements | M | 2.5hr | hr | hr |
 | MVP bug testing. | H | 2.5hr | hr |
 | Total | H | 22  hours| hrs |
