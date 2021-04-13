@@ -71,6 +71,10 @@ text-align: center;
      display:none;
  }
 
+ .projectstuff {
+     display:none;
+ }
+
 
 
 
@@ -104,7 +108,7 @@ text-align: center;
     .aboutme {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     padding: 10px;
 
     }
@@ -134,6 +138,12 @@ text-align: center;
         grid-template-rows: 1fr 1fr 1fr;
     }
 
+    .projectstuff {
+        display: flex;
+        font-family: 'Spartan', sans-serif;
+        padding: 10px;
+
+    }
 
 
 
