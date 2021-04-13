@@ -23,7 +23,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nMCs6OEMY5mugd_pzWU_3cMqM_8H
 
         }
     })
-    console.log(projects)
+    // console.log(projects)
 
     ///////////////////////////
     ///// Jquery to render your projects below

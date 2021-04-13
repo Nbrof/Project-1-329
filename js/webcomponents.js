@@ -15,12 +15,24 @@ class TemplateExample extends HTMLElement {
 class PortfolioCard extends HTMLElement {
     constructor() {
         super()
-        
+      
+      
+        const name = this.getAttribute("projectName")
       const giturl  = this.getAttribute("giturl")
       const liveurl = this.getAttribute("liveurl")
       const imgurl = this.getAttribute("imgurl")
+     
+     
+      console.log(this.attributes)
+      console.log(giturl, liveurl, imgurl, name)
 
-      console.log(giturl, liveurl, imgurl,)
+        this.innerHTML =`
+        <sl-card>
+        <h3>${name}</h3>
+        <img src=${imgurl} alt=${name} slot="image">
+        <a href=${giturl}> <sl-button size="medium" pill>Git</sl-button></a>
+        <a href=${liveurl}> <sl-button size="medium" pill>Live</sl-button></a>
+        <sl-card>`;
     }
 }
 
