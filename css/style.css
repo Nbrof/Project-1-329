@@ -63,8 +63,8 @@ text-align: center;
 
 .main-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
  .aboutme {
@@ -103,6 +103,12 @@ text-align: center;
     li {
         display: flex;
       
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     .aboutme {
