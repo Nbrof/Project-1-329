@@ -88,10 +88,10 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | CSS Padding and margin| M | 2hr | 1hr |  
 | CSS Resource Gather | L | 1hr | 1.5hr
 | Flexbox / Bootstrap content and styling | M | 1.5hr|  hr | 
-| Jquery Research | M | 1hr | hr |
-| Working with API | H | 2.5hrs|  hr | 
-| Jquery rendering data to page | H | 2hr | hr |
-| Responsive layout basic design | M | 2.5hr | 2.5hr|
+| Jquery Research | M | 1hr | 1.5hr |
+| Working with API | H | 2.5hrs|  2.5hr | 
+| Jquery rendering data to page | H | 2hr | 3hr |
+| Responsive layout basic design | M | 2.5hr | hr|
 | Response Jquery elements | M | 2.5hr | hr | hr |
 | MVP bug testing. | H | 2.5hr | hr |
 | Total | H | 22  hours| hrs |
@@ -127,5 +127,5 @@ function reverse(string) {
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
 
-**ERROR** json information did not properly rear on page
+**ERROR** json information did not properly render on page
 **RESOLUTION** Webcomponents.js information needed to map app.js information
