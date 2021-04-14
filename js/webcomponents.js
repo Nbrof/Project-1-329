@@ -31,8 +31,13 @@ class PortfolioCard extends HTMLElement {
         <sl-card>
         <h3>${name}</h3>
         <img src='${imgurl}' alt=${name} slot="image"/>
+        
+
+        <div slot="footer">
         <a href=${giturl}> <sl-button size="medium" pill>Git</sl-button></a>
         <a href=${liveurl}> <sl-button size="medium" pill>Live</sl-button></a>
+      </div>
+      
         <sl-card>
         </section>`;
     }
