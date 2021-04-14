@@ -43,6 +43,6 @@ class PortfolioCard extends HTMLElement {
 /////////////////////////////////
 // Register the HTML Tag here
 /////////////////////////////////
-customElements.define("portfolio-card", PortfolioCard)
+customElements.define("port-card", PortfolioCard)
 
 customElements.define("template-example", TemplateExample)

@@ -4,9 +4,9 @@
 
 
  
- * {
+ /* * {
      border: solid 1px;
- }
+ } */
 
 nav {
     background-color: grey;
@@ -75,6 +75,10 @@ text-align: center;
      display:none;
  }
 
+  div.card__body  {
+     display: none !important;
+ }
+
 
 
 
@@ -95,18 +99,22 @@ text-align: center;
     ul{
         padding-top: 10px;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-evenly;
         width:auto;
     }
     
 
     li {
         display: flex;
+        padding: 20px;
+        justify-content: space-evenly;
       
     }
 
+    
+
     .main-content {
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -144,20 +152,30 @@ text-align: center;
 @media screen and (min-width: 1024px) {
 
     .main-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        display: flex;
+        /* grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; */
     }
 
     .projectstuff {
         display: flex;
         font-family: 'Spartan', sans-serif;
         padding: 10px;
+        flex-wrap: wrap;
 
     }
-    section {
-        grid-row: 1 / 1;
-        grid-column: 1/3;
+     section {
+        display: flex;
+        grid-row: 1 / 4;
+        grid-column: 1/4;
+    }
+
+     port-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    } 
+
     }
     
     
@@ -170,5 +188,3 @@ text-align: center;
 
 
 
-
-}

@@ -33,7 +33,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nMCs6OEMY5mugd_pzWU_3cMqM_8H
 
     const jqProject = projects.map((project) => {
         return `
-        <portfolio-card name="${project.pname}" git=${project.giturl} live=${project.liveurl} img=${project.projectimage}></portfolio-card>
+        <port-card name="${project.pname}" git=${project.giturl} live=${project.liveurl} img=${project.projectimage}></port-card>
         `
     })
 
