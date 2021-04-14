@@ -18,18 +18,13 @@ nav {
 
 ul {
     display: none;
-
 }
 
- li {
-     /* display: none; */
-     /* justify-content: flex-start; */
- }
+
 
 h1 {
     text-align: center;
     padding: 40px;
-    
     font-family: 'Zen Dots', cursive;
 }
 
@@ -74,11 +69,6 @@ text-align: center;
  .projectstuff {
      display:none;
  }
-
-  div.card__body  {
-     display: none !important;
- }
-
 
 
 
@@ -127,6 +117,7 @@ text-align: center;
         grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
     padding: 10px;
+    border-top: 2px solid grey;
 
     }
 

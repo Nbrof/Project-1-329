@@ -83,18 +83,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | HTML Structure | H | 1.5hr | 2hr |
-| HTML WebComponent Research | L | 1hr | hr |
+| HTML WebComponent Research | L | 1hr | 2.5hr |
 | CSS Grid| M | 2hr | 1.5 |
 | CSS Padding and margin| M | 2hr | 1hr |  
 | CSS Resource Gather | L | 1hr | 1.5hr
-| Flexbox / Bootstrap content and styling | M | 1.5hr|  hr | 
+| Flexbox / Bootstrap content and styling | M | 1.5hr|  1.5hr | 
 | Jquery Research | M | 1hr | 1.5hr |
 | Working with API | H | 2.5hrs|  2.5hr | 
 | Jquery rendering data to page | H | 2hr | 3hr |
-| Responsive layout basic design | M | 2.5hr | hr|
-| Response Jquery elements | M | 2.5hr | hr | hr |
-| MVP bug testing. | H | 2.5hr | hr |
-| Total | H | 22  hours| hrs |
+| Responsive layout basic design | M | 2.5hr | 1.5hr|
+| Response Jquery elements | M | 2.5hr | 2hr | 
+| MVP bug testing. | H | 2.5hr | 2.5hr |
+| Total | H | 22  hours| 23hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -129,3 +129,6 @@ function reverse(string) {
 
 **ERROR** json information did not properly render on page
 **RESOLUTION** Webcomponents.js information needed to map app.js information
+
+**ERROR** Box appeared on shoelace card, Refused to be accessed by CSS or other elements
+**RESOLUTION** Deleted snippet of code creating shoelace card, re-added code 1 for 1. Box was now gone.

@@ -28,17 +28,14 @@ class PortfolioCard extends HTMLElement {
 
         this.innerHTML =`
         <section>
-        <sl-card>
+        <sl-card class="card-basic">
         <h3>${name}</h3>
         <img src='${imgurl}' alt=${name} slot="image"/>
-        
-
         <div slot="footer">
         <a href=${giturl}> <sl-button size="medium" pill>Git</sl-button></a>
         <a href=${liveurl}> <sl-button size="medium" pill>Live</sl-button></a>
-      </div>
-      
-        <sl-card>
+        </div>      
+      </sl-card>
         </section>`;
     }
 }
@@ -51,3 +48,8 @@ class PortfolioCard extends HTMLElement {
 customElements.define("port-card", PortfolioCard)
 
 customElements.define("template-example", TemplateExample)
+
+
+
+
+
