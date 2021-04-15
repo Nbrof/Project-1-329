@@ -19,7 +19,10 @@ nav {
 ul {
     display: none;
 }
-
+ a {
+     text-decoration: none;
+     color: rgb(63, 68, 68);
+ }
 
 
 h1 {
@@ -54,6 +57,7 @@ height: 40px;
 background-color: rgb(51, 107, 106);
 color: gray;
 text-align: center;
+border-top: solid 2px;
 }
 
 .main-content {
