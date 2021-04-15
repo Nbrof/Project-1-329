@@ -93,7 +93,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Jquery rendering data to page | H | 2hr | 3hr |
 | Responsive layout basic design | M | 2.5hr | 1.5hr|
 | Response Jquery elements | M | 2.5hr | 2hr | 
-| MVP bug testing. | H | 2.5hr | 2.5hr |
+| MVP bug testing. | H | 2.5hr | hr |
 | Total | H | 22  hours| 23hrs |
 
 #### PostMVP
