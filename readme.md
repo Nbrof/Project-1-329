@@ -14,9 +14,9 @@ This schedule will be used to keep track of your progress throughout the week an
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 2-3| MVP & Bug Fixes | Incomplete
-|Day 3| Final Touches | Incomplete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 2-3| MVP & Bug Fixes | Complete
+|Day 3| Final Touches | Complete
 |Day 5| Present | Incomplete
 
 
@@ -100,7 +100,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Additional proper styling w css| L | 2hr | -hr | hr |
-| Interactive Nav | L | 1hr | hr |
+| Interactive Nav | L | 1hr | 1hr |
 | Javascript Research for Interactive elements | L | 2hr | 
 | Carosel | L | 2hr | -hr | hr |
 | Total | H | 7hrs| hrs |
